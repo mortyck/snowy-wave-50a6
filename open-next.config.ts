@@ -15,7 +15,7 @@ const config = {
     external: true,
     override: {
       wrapper: "cloudflare-edge",
-      converter: "edge",
+    //  converter: "edge",
       proxyExternalRequest: "fetch",
     },
   },
